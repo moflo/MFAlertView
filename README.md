@@ -9,20 +9,25 @@ Description
 
 Highly stylized UIAlertView with several useful options.
 
-GIF Screencapture 
 ![walk-thru](https://raw.githubusercontent.com/moflo/MFAlertView/master/animation.gif)
 
 
 Installation
 ------------
 
-Copy the `MF_UIAlertView.h` and `MF_UIAlertView.m` files to you project.
+Copy the `MF_UIAlertView.h` and `MF_UIAlertView.m` files to your project.
+
+
+Requirements
+------------
+
+iOS7.0 and ARC
 
 
 Usage
 -----
 
-Simplest usage is to display an alert with a single button using blocks.
+Simplest usage is to display an alert with a single button using blocks:
 
     // Simple Alert
     [MF_UIAlertView showWithTitle:@"Hello!" message:@"Test of a single button" cancelButtonTitle:@"Cancel" defaultButtonTitle:nil otherButtonTitle:nil withBlock:^(int selectedButton) {
@@ -30,7 +35,7 @@ Simplest usage is to display an alert with a single button using blocks.
         NSLog(@"Simple alert, button selected: %d",selectedButton);
     }];
 
-You can use the same method to display a cancelable activity alert.
+You can use the same method to display a cancelable activity alert:
 
     // Simple Alert - spinner
     [MF_UIAlertView showSpinnerWithTitle:@"Hello!" cancelButtonTitle:@"Cancel" withBlock:^(int selectedButton) {
