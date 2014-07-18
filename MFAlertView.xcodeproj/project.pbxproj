@@ -61,6 +61,7 @@
 		912D8E641979BA0400140115 /* MF_UIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_UIAlertView.m; sourceTree = "<group>"; };
 		912D8E671979C21400140115 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		912D8E681979C21400140115 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		912D8E691979C64D00140115 /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 			children = (
 				912D8E671979C21400140115 /* LICENSE */,
 				912D8E681979C21400140115 /* README.md */,
+				912D8E691979C64D00140115 /* animation.gif */,
 				912D8E311979B9DA00140115 /* MFAlertView */,
 				912D8E531979B9DA00140115 /* MFAlertViewTests */,
 				912D8E2A1979B9DA00140115 /* Frameworks */,
