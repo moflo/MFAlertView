@@ -44,6 +44,12 @@ You can use the same method to display a cancelable activity alert:
     }];
 
 
+Testing
+-------
+
+Testing with Travis CI.
+
+
 License
 -------
 
