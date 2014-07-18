@@ -48,6 +48,7 @@ Testing
 -------
 
 Testing with Travis CI. Currenlty failing due to InfoPlist.strings issues...
+[![Build Status](https://travis-ci.org/moflo/MFAlertView.svg?branch=master)](https://travis-ci.org/moflo/MFAlertView)
 
 
 License
