@@ -233,7 +233,7 @@
 #define kDefaultButtonHeight 37
 #define kDefaultButtonWidth 58
 #define kDefaultButtonVertOffset 0
-    int totalNumberOfButtons = 1 + [_buttons count];
+    NSInteger totalNumberOfButtons = 1 + [_buttons count];
     
     _cancelButton = [[MF_UIAlertButton alloc] initWithFrame:CGRectMake(0, 0, kDefaultButtonWidth, kDefaultButtonHeight)];
     _cancelButton.tag = 101;
@@ -400,7 +400,6 @@
 - (void)doButton:(id)sender
 {
     UIButton *button = (UIButton *)sender;
-    NSLog(@"MF_UIAlertView, button=%d",button.tag);
     int button_tag = 0;
     if (button == _cancelButton) {
         button_tag = 0;
