@@ -47,7 +47,7 @@ You can use the same method to display a cancelable activity alert:
 Testing
 -------
 
-Testing with Travis CI. Currenlty failing due to InfoPlist.strings issues.
+Testing with Travis CI. Currenlty failing due to InfoPlist.strings issues...
 
 
 License
