@@ -10,7 +10,7 @@ Description
 Highly stylized UIAlertView with several useful options.
 
 GIF Screencapture 
-![walk-thru](https://s3.amazonaws.com/img0.recordit.co/gifs/sDiCILiScN.gif?AWSAccessKeyId=AKIAJ6C24MUFYLHXOTTQ&Expires=1405720972&Signature=5uYhx6e2SUHBgD8XPXfVYnu1Oq4%3D "GIF Animation")
+![walk-thru](https://s3.amazonaws.com/img0.recordit.co/gifs/sDiCILiScN.gif?AWSAccessKeyId=AKIAJ6C24MUFYLHXOTTQ&Expires=1405720972&Signature=5uYhx6e2SUHBgD8XPXfVYnu1Oq4%3D)
 
 
 Installation
