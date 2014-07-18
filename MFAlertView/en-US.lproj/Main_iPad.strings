@@ -1,0 +1,24 @@
+
+/* Class = "IBUILabel"; text = "Simple Alert - long button text"; ObjectID = "19d-Ut-877"; */
+"19d-Ut-877.text" = "Simple Alert - long button text";
+
+/* Class = "IBUILabel"; text = "Simple Alert"; ObjectID = "2z2-UV-ENl"; */
+"2z2-UV-ENl.text" = "Simple Alert";
+
+/* Class = "IBUILabel"; text = "Simple Alert - long text"; ObjectID = "4iv-1c-2y6"; */
+"4iv-1c-2y6.text" = "Simple Alert - long text";
+
+/* Class = "IBUILabel"; text = "Simple Alert - 2 button"; ObjectID = "FuN-EI-dfl"; */
+"FuN-EI-dfl.text" = "Simple Alert - 2 button";
+
+/* Class = "IBUILabel"; text = "MFAlertView Testing"; ObjectID = "I6B-nH-tZB"; */
+"I6B-nH-tZB.text" = "MFAlertView Testing";
+
+/* Class = "IBUILabel"; text = "Simple Alert - long button & title text"; ObjectID = "K6c-J0-EPV"; */
+"K6c-J0-EPV.text" = "Simple Alert - long button & title text";
+
+/* Class = "IBUILabel"; text = "Simple Alert - 3 button"; ObjectID = "ZuF-GI-0X3"; */
+"ZuF-GI-0X3.text" = "Simple Alert - 3 button";
+
+/* Class = "IBUILabel"; text = "Simple Alert - spinner"; ObjectID = "sbb-LA-df0"; */
+"sbb-LA-df0.text" = "Simple Alert - spinner";

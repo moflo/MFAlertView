@@ -64,6 +64,10 @@
 		912D8E691979C64D00140115 /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
 		912D8E6A1979C8CE00140115 /* MFAlertView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MFAlertView.podspec; sourceTree = "<group>"; };
 		912D8E6B1979CC8600140115 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		912D8E6C1979D12400140115 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Main_iPhone.strings"; sourceTree = "<group>"; };
+		912D8E6D1979D12400140115 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
+		912D8E6E1979D12400140115 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		912D8E6F1979D12400140115 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +235,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"en-US",
 			);
 			mainGroup = 912D8E1F1979B9DA00140115;
 			productRefGroup = 912D8E291979B9DA00140115 /* Products */;
@@ -301,6 +306,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				912D8E351979B9DA00140115 /* en */,
+				912D8E6E1979D12400140115 /* en-US */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -309,6 +315,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				912D8E3E1979B9DA00140115 /* Base */,
+				912D8E6C1979D12400140115 /* en-US */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -317,6 +324,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				912D8E411979B9DA00140115 /* Base */,
+				912D8E6D1979D12400140115 /* en-US */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -325,6 +333,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				912D8E571979B9DA00140115 /* en */,
+				912D8E6F1979D12400140115 /* en-US */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
