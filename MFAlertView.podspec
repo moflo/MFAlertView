@@ -9,12 +9,13 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Mo Flo" => "github@moflo.me" }
-  s.source       = { :git => "https://github.com/moflo/MFAlertView.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/moflo/MFAlertView.git", :tag => s.version.to_s }
   s.platform     = :ios
 
-  s.source_files = 'MFAlertView/MF_UIAlertView/*.{h,m}'
+  s.source_files = 'MFAlertView/MF_UIAlertView.{h,m}'
 
   s.frameworks  = 'QuartzCore'
 
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 end
