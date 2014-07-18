@@ -9,7 +9,8 @@ Description
 
 Highly stylized UIAlertView with several useful options.
 
-GIF Screencapture (https://s3.amazonaws.com/img0.recordit.co/gifs/sDiCILiScN.gif?AWSAccessKeyId=AKIAJ6C24MUFYLHXOTTQ&Expires=1405720972&Signature=5uYhx6e2SUHBgD8XPXfVYnu1Oq4%3D)
+GIF Screencapture 
+![walk-thru](https://s3.amazonaws.com/img0.recordit.co/gifs/sDiCILiScN.gif?AWSAccessKeyId=AKIAJ6C24MUFYLHXOTTQ&Expires=1405720972&Signature=5uYhx6e2SUHBgD8XPXfVYnu1Oq4%3D "GIF Animation")
 
 
 Installation
@@ -23,19 +24,19 @@ Usage
 
 Simplest usage is to display an alert with a single button using blocks.
 
-            // Simple Alert
-            [MF_UIAlertView showWithTitle:@"Hello!" message:@"Test of a single button" cancelButtonTitle:@"Cancel" defaultButtonTitle:nil otherButtonTitle:nil withBlock:^(int selectedButton) {
-                // Button selected
-                NSLog(@"Simple alert, button selected: %d",selectedButton);
-            }];
+    // Simple Alert
+    [MF_UIAlertView showWithTitle:@"Hello!" message:@"Test of a single button" cancelButtonTitle:@"Cancel" defaultButtonTitle:nil otherButtonTitle:nil withBlock:^(int selectedButton) {
+        // Button selected
+        NSLog(@"Simple alert, button selected: %d",selectedButton);
+    }];
 
 You can use the same method to display a cancelable activity alert.
 
-            // Simple Alert - spinner
-            [MF_UIAlertView showSpinnerWithTitle:@"Hello!" cancelButtonTitle:@"Cancel" withBlock:^(int selectedButton) {
-                // Button selected
-                NSLog(@"Simple alert, button selected: %d",selectedButton);
-            }];
+    // Simple Alert - spinner
+    [MF_UIAlertView showSpinnerWithTitle:@"Hello!" cancelButtonTitle:@"Cancel" withBlock:^(int selectedButton) {
+        // Button selected
+        NSLog(@"Simple alert, button selected: %d",selectedButton);
+    }];
 
 
 License
