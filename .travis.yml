@@ -1,0 +1,5 @@
+language: objective-c
+xcode_project: MFAlertView.xcodeproj # path to your xcodeproj folder
+xcode_scheme: CITests
+xcode_sdk: iphonesimulator7.0
+
