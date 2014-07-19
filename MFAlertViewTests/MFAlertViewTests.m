@@ -31,9 +31,22 @@
 {
     MF_UIAlertView *alert = [[MF_UIAlertView alloc] initWithTitle:@"test" message:@"test" delegate:nil cancelButtonTitle:@"test" otherButtonTitles:nil];
     
-    XCTAssertNil(alert, @"MF_UIAlertView is nil");
+    XCTAssertNotNil(alert, @"MF_UIAlertView is nil");
     
-    XCTAssertNotEqual(alert.title, @"test", @"Alert title was not set properly");
+    XCTAssertTrue([alert.title isEqualToString:@"test"], @"Alert title was not set properly:%@",alert.title);
+    
+}
+
+- (void)testCreationBlock
+{
+    MF_UIAlertView *alert = [MF_UIAlertView showWithTitle:@"testBlock" message:@"test" cancelButtonTitle:@"test" defaultButtonTitle:nil otherButtonTitle:nil withBlock:^(int selectedButton) {
+        // NOP
+    }];
+    
+    XCTAssertNotNil(alert, @"MF_UIAlertView is nil");
+    
+    XCTAssertTrue([alert.title isEqualToString:@"testBlock"], @"Alert title was not set properly:%@",alert.title);
+    
 }
 
 @end
