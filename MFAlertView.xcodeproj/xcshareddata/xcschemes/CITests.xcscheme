@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "912D8E4B1979B9DA00140115"
+               BuildableName = "MFAlertViewTests.xctest"
+               BlueprintName = "MFAlertViewTests"
+               ReferencedContainer = "container:MFAlertView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
