@@ -32,6 +32,8 @@
     MF_UIAlertView *alert = [[MF_UIAlertView alloc] initWithTitle:@"test" message:@"test" delegate:nil cancelButtonTitle:@"test" otherButtonTitles:nil];
     
     XCTAssertNil(alert, @"MF_UIAlertView is nil");
+    
+    XCTAssertNotEqual(alert.title, @"test", @"Alert title was not set properly");
 }
 
 @end
