@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "MF_UIAlertView.h"
 
 @interface MFAlertViewTests : XCTestCase
 
@@ -26,9 +27,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testCreation
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    MF_UIAlertView *alert = [[MF_UIAlertView alloc] initWithTitle:@"test" message:@"test" delegate:nil cancelButtonTitle:@"test" otherButtonTitles:nil];
+    
+    XCTAssertNotNil(alert, @"MF_UIAlertView is nil");
 }
 
 @end
